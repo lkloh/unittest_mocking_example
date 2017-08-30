@@ -1,16 +1,16 @@
 
 def decorator(func):
 
-	def wrapper(arg):
+	def wrapper(func_arg):
 		print('before')
-		func(arg)
+		func(func_arg)
 		print('after')
 
 	return wrapper
 
 @decorator
-def func(arg):
-	print(arg)
+def func(func_arg):
+	print(func_arg)
 
 func('hello')
 
