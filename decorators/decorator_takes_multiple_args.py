@@ -19,8 +19,3 @@ def random_func():
 	return 7
 
 random_func()
-
-
-
-
-
