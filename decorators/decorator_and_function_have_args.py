@@ -1,5 +1,4 @@
 
-
 def decorator(lower, upper):
 
 	def outer_wrapper(func):
